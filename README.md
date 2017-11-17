@@ -1,1 +1,1 @@
-This is the notebook of algorithm to record some interesting problem
+This repository can be regarded as a notebook to record good idea and experienceof learning algorithm. Some problems come from ACM competition and are very difficult. Some solution come from some algorithm master's blog and great thanks to him/her. I am not a native english speaker so some of my sentence may seem puzzling, I will try my best to fix it.
