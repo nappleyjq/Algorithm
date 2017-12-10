@@ -76,9 +76,6 @@ Solution:
 */
 
 
-#ifndef ONLINE_JUDGE
-#pragma warning(disable : 4996)
-#endif
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
