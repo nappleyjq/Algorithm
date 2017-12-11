@@ -1,4 +1,6 @@
 /*
+http://poj.org/problem?id=1979
+
 Red and Black
 
 Description
