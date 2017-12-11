@@ -58,6 +58,10 @@ X...X.XX..
 91
 */
 
+/*
+Solution:breadth first search
+*/
+
 #include <iostream>
 #include <queue>
 using namespace std;
