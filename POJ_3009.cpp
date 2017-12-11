@@ -100,6 +100,10 @@ Sample Output
 -1
 */
 
+/*
+Solution:depth first search
+*/
+
 #ifndef ONLINE_JUDGE
 #pragma warning(disable : 4996)
 #endif
