@@ -1,7 +1,5 @@
 /*
 Red and Black
-Time Limit: 1000MS		Memory Limit: 30000K
-Total Submissions: 38040		Accepted: 20641
 
 Description
 There is a rectangular room, covered with square tiles. Each tile is colored either red or black. A man is standing on a black tile. From a tile, he can move to one of four adjacent tiles. But he can't move on red tiles, he can move only on black tiles.
@@ -66,13 +64,10 @@ Sample Output
 59
 6
 13
-
-Source
-Japan 2004 Domestic
 */
 
 /*
-Solution:
+Solution:depth first search
 */
 
 
