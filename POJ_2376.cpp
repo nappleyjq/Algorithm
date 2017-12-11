@@ -1,5 +1,5 @@
 /*
-Solution:Use greedy strategy to choose the interval as longer as possible from left to right. 
+Solution:Use greedy algorithm to choose the interval as longer as possible from left to right. 
 
 The first step is to sort cows according to the time and then update:start_point=end_point+1. Then search the left cows to choose the one that can both cover the start_point and the farest end_point and then update end_point. 
 */
@@ -7,8 +7,6 @@ The first step is to sort cows according to the time and then update:start_point
 
 /*
 Cleaning Shifts
-Time Limit: 1000MS		Memory Limit: 65536K
-Total Submissions: 25351		Accepted: 6290
 
 Description
 Farmer John is assigning some of his N (1 <= N <= 25,000) cows to do some cleaning chores around the barn. He always wants to have one cow working on cleaning things up and has divided the day into T shifts (1 <= T <= 1,000,000), the first being shift 1 and the last being shift T.
