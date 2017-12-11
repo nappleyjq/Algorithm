@@ -2,4 +2,4 @@ This repository can be regarded as a notebook to record good idea and experience
 Most of the problems are from the books shown below.
 
 プログラミングコンテストチャレンジブック(第2版) 問題解決のアルゴリズム活用力とコーディングテクニックを鍛える (日语) 单行本-平装 – 2012年1月28日
-![image](https://github.com/nappleyjq/algorithm/raw/master/programming.contest.png)
+<div align=center><src="https://github.com/nappleyjq/algorithm/raw/masterprogramming.contest.png"/></div>
