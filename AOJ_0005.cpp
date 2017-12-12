@@ -1,4 +1,6 @@
 /*
+http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0005
+
 GCD and LCM
 Write a program which computes the greatest common divisor (GCD) and the least common multiple (LCM) of given a and b.
 Input
