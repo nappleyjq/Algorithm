@@ -110,10 +110,6 @@ inline void put_cow(const int& i, const bool& new_stall)
 
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
-#endif
 	int N;
 	cin >> N;
  
@@ -137,10 +133,5 @@ int main(int argc, char *argv[])
 	{
 		cout << result[i] << endl;
 	}
-#ifndef ONLINE_JUDGE
-    fclose(stdin);
-    fclose(stdout);
-    system("out.txt");
-#endif
     return 0;
 }

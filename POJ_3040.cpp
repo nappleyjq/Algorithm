@@ -45,10 +45,6 @@ int need[20];
 
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
-#endif
 	int N, C;
 	cin >> N >> C;
 	for (int i = 0; i < N; ++i)
@@ -126,10 +122,5 @@ int main(int argc, char *argv[])
 		}
 	}
 	cout << week << endl;
-#ifndef ONLINE_JUDGE
-    fclose(stdin);
-    fclose(stdout);
-    system("out.txt");
-#endif
     return 0;
 }

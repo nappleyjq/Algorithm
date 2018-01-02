@@ -109,10 +109,6 @@ int solve()
  
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
-#endif
 	cin >> N >> T;
 	for (int i = 0; i < N; ++i)
 	{
@@ -120,10 +116,5 @@ int main(int argc, char *argv[])
 	}
 	sort(cow, cow + N, is_greater);
 	cout << solve() << endl;
-#ifndef ONLINE_JUDGE
-    fclose(stdin);
-    fclose(stdout);
-    system("out.txt");
-#endif
     return 0;
 }

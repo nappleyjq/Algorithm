@@ -1,6 +1,3 @@
-#ifndef ONLINE_JUDGE
-#pragma warning(disable : 4996)
-#endif
 #include <iostream>
 #include <vector>
 #include <iterator>
@@ -8,14 +5,9 @@
 #include <functional>
 #include <stdio.h>
 using namespace std;
- 
-///////////////////////////SubMain//////////////////////////////////
+
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-	freopen("in.txt", "r", stdin);
-	freopen("out.txt", "w", stdout);
-#endif
 	int n;
 	cin >> n;
 	vector<int> coll;
@@ -36,10 +28,5 @@ int main(int argc, char *argv[])
 	{
 		cout << 0 << endl;
 	}
-#ifndef ONLINE_JUDGE
-	fclose(stdin);
-	fclose(stdout);
-	system("out.txt");
-#endif
 	return 0;
 }

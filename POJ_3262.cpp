@@ -54,10 +54,6 @@ Cow cow[100000];
 
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
-#endif
 	int N;
 	cin >> N;
 	int total_destory = 0;
@@ -74,10 +70,5 @@ int main(int argc, char *argv[])
 		destroied += total_destory * cow[i].T * 2; // 损害维持时间为2倍的 moving 牛耗时
 	}
 	cout << destroied << endl;
-#ifndef ONLINE_JUDGE
-    fclose(stdin);
-    fclose(stdout);
-    system("out.txt");
-#endif
     return 0;
 }

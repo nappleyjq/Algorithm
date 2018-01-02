@@ -24,66 +24,6 @@ Sample Output
 28
 */
 
-/*
-//Solution 1 TLE
-
-#ifndef ONLINE_JUDGE
-#pragma warning(disable : 4996)
-#endif
-#include <iostream>
-#include <string>
-#include <algorithm>
-using namespace std;
- 
-int main(int argc, char *argv[])
-{
-#ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
-#endif
-    int n;
-    cin >> n;
-    cin.ignore();
-    while (n--)
-    {
-        string all;
-        getline(cin, all);
-        all.erase(remove(all.begin(), all.end(), ' '), all.end());
-        int result = 0x3F3F3F3F;
-        int cut = all.size() / 2;
-        do 
-        {
-            string s1 = all.substr(0, cut);
-            string s2 = all.substr(cut);
-            if ((s1[0] == '0' && s1.size() > 1) ||
-                (s2[0] == '0' && s2.size() > 1)
-                )
-            {
-                continue;
-            }
-            int n1 = atoi(s1.c_str());
-            int n2 = atoi(s2.c_str());
-            int dif = abs(n1 - n2);
-            if (dif < result)
-            {
-                result = dif;
-            }
-        } while (next_permutation(all.begin(), all.end()));
-		
-        cout << result << endl;
-    }
-#ifndef ONLINE_JUDGE
-    fclose(stdin);
-    fclose(stdout);
-    system("out.txt");
-#endif
-    return 0;
-}
-*/
-
-#ifndef ONLINE_JUDGE
-#pragma warning(disable : 4996)
-#endif
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -92,10 +32,6 @@ using namespace std;
  
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-	freopen("in.txt", "r", stdin);
-	freopen("out.txt", "w", stdout);
-#endif
 	int n;
 	cin >> n;
 	cin.ignore();
@@ -155,10 +91,5 @@ int main(int argc, char *argv[])
  
 		cout << result << endl;
 	}
-#ifndef ONLINE_JUDGE
-	fclose(stdin);
-	fclose(stdout);
-	system("out.txt");
-#endif
 	return 0;
 }

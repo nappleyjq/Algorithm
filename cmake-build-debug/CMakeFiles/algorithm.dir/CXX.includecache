@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/akiko/Documents/algorithm/POJ_2328.cpp
+iostream
+-
+vector
+-
+cmath
+-
+algorithm
+-
+limits
+-
+

@@ -32,10 +32,6 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
-#endif
 	int N;
 	cin >> N;
 	priority_queue<double> que;
@@ -54,10 +50,5 @@ int main(int argc, char *argv[])
 	cout.setf(ios::fixed);
 	cout.precision(3);
 	cout << que.top() << endl;
-#ifndef ONLINE_JUDGE
-    fclose(stdin);
-    fclose(stdout);
-    system("out.txt");
-#endif
     return 0;
 }

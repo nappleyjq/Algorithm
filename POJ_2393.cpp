@@ -40,10 +40,6 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
-#endif
 	int N, S;
 	cin >> N >> S;
 	int P = 5000;
@@ -56,10 +52,5 @@ int main(int argc, char *argv[])
 		costs += P * Y;
 	}
 	cout << costs << endl;
-#ifndef ONLINE_JUDGE
-    fclose(stdin);
-    fclose(stdout);
-    system("out.txt");
-#endif
     return 0;
 }

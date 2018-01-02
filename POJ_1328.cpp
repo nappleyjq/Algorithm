@@ -57,10 +57,6 @@ struct Section
  
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
-#endif
 	int n, d, __id;
 	__id = 0;
 	while(cin >> n >> d && n > 0)
@@ -110,10 +106,5 @@ int main(int argc, char *argv[])
  
 		cout << "Case " << ++__id << ": " << result << endl;
 	}
-#ifndef ONLINE_JUDGE
-    fclose(stdin);
-    fclose(stdout);
-    system("out.txt");
-#endif
     return 0;
 }

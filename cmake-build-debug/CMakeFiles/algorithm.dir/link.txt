@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/algorithm.dir/POJ_2328.cpp.o  -o algorithm 

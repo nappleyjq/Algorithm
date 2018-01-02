@@ -111,10 +111,6 @@ int bfs()
 
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-	freopen("in.txt", "r", stdin);
-	freopen("out.txt", "w", stdout);
-#endif
 	cin >> n;
 	for (int i = 0; i < n; ++i)
 	{
@@ -144,10 +140,5 @@ int main(int argc, char *argv[])
 	{
 		cout << bfs() << endl;
 	}
-#ifndef ONLINE_JUDGE
-	fclose(stdin);
-	fclose(stdout);
-	system("out.txt");
-#endif
 	return 0;
 }

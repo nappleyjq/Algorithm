@@ -51,10 +51,6 @@ int dp[1024];
  
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
-#endif
 	int N, M, R;
 	cin >> N >> M >> R;
 	for (int i = 0; i < M; ++i)
@@ -77,11 +73,5 @@ int main(int argc, char *argv[])
 	}
  
 	cout << *max_element(dp, dp + M) << endl;
- 
-#ifndef ONLINE_JUDGE
-    fclose(stdin);
-    fclose(stdout);
-    system("out.txt");
-#endif
     return 0;
 }

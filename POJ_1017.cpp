@@ -30,10 +30,6 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
-#endif
 	int n, p1, p2, p3, p4, p5, p6, x , y;
 	int space[4] = {0, 5, 3, 1}; // 一个箱子放入几个 3 * 3 后留下的缝隙可以放入几个 2 * 2
 	while(true)
@@ -61,10 +57,5 @@ int main(int argc, char *argv[])
 		}
 		cout << n << endl;
 	}
-#ifndef ONLINE_JUDGE
-    fclose(stdin);
-    fclose(stdout);
-    system("out.txt");
-#endif
     return 0;
 }

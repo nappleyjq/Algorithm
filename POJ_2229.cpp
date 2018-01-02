@@ -37,10 +37,6 @@ int dp[1000000 + 1]; // 数字i的分解数
  
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
-#endif
 	int N;
 	cin >> N;
 	dp[0] = 1; // 2^0
@@ -54,10 +50,5 @@ int main(int argc, char *argv[])
 		dp[i] %= 1000000000;
 	}
 	cout << dp[N] << endl;
-#ifndef ONLINE_JUDGE
-    fclose(stdin);
-    fclose(stdout);
-    system("out.txt");
-#endif
     return 0;
 }

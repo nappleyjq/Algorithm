@@ -180,11 +180,6 @@ void dfs(const int& x, const int& y, int step)
  
 int main(int argc, char *argv[])
 {
-#ifndef ONLINE_JUDGE
-	freopen("in.txt", "r", stdin);
-	freopen("out.txt", "w", stdout);
-#endif
-	
 	while (cin >> w >> h, w != 0)
 	{
 		for (int i = 0; i < h; ++i)
@@ -217,10 +212,5 @@ int main(int argc, char *argv[])
 		}
 		cout << min_step << endl;
 	}
-#ifndef ONLINE_JUDGE
-	fclose(stdin);
-	fclose(stdout);
-	system("out.txt");
-#endif
 	return 0;
 }
